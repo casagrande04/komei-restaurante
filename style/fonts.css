@@ -35,6 +35,16 @@
     text-decoration: none;
 }
 
+.text-menu{
+    display: flex;
+    font-family: ubuntu, sans-serif;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 400;
+    text-align: start!important;
+    text-decoration: none;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
