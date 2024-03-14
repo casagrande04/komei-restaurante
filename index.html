@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Komei Restaurante</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/homeMobile.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/fonts.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid p-0"> <!-- container principal -->
+        <nav class="navbar navbar-expand-lg"> <!-- inicio navbar -->
+
+            <a class="navbar-brand" href="index.html">
+                <img class="logo m-3" src="img/logo-komei.jpg" alt="">
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- fim navbar -->
+
+        <div class="desktop-only"><!-- inicio desktop only -->
+            <div class="background-home"> <br>
+                <p class="title m-5">Uma experiência gastronômica <br>japonesa autêntica e única. <br>
+                    <span class="text"><br>Com foco em pratos como Ramen e Kare, feitos apenas com ingredientes frescos
+                        e de qualidade. <br>Venha conhecer!</span>
+                </p>
+
+                <span class="m-5">
+                    <button class="btn-menu""><a href="menu.html">Conhecer o Menu</a></button>
+                </span>
+            </div>
+        </div><!-- fim desktop only -->
+
+        <div class="mobile-only"><!-- inicio mobile only -->
+            <div class="background-home"> <br>
+                <p class="title m-5">Uma experiência gastronômica <br>japonesa autêntica e única. <br>
+                    <span class="text"><br>Com foco em pratos como Ramen e Kare, feitos apenas com ingredientes frescos
+                        e de qualidade. <br>Venha conhecer!</span>
+                </p>
+
+                <span class="m-5">
+                    <button class="btn-menu">Conhecer o Menu</button>
+                </span>
+            </div>
+        </div><!-- fim mobile only -->
+
+
+        <div class="desktop-only">
+            <div class="background-home2"> <br> <br>
+                <div class="row">
+                    <div class="col text m-5">
+                        <img src="img/img-home-sobre.png" alt="">
+                    </div>
+                    <div class="col m-5">
+                        <span class="title">
+                            Tempo e conhecimento
+                        </span> <br> <br>
+                        <p class="text">Desde 2018 nossa missão tem sido revolucionar a forma como as pessoas
+                            experimentam a comida em São Paulo. De pratos clássicos a inovadores, trazendo
+                            sempre o
+                            melhor.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m-5">
+                        <span class="title">
+                            O melhor atendimento
+                        </span> <br> <br>
+                        <p class="text">O restaurante busca proporcionar uma aventura culinária arrojada e
+                            simplista. Venha conhecer hoje mesmo e saboreie tudo isso! <br> <br> <br> Horário de
+                            funcionamento: <br>
+                            Terça à domingo <br> 11h30 às 20h30
+                        </p>
+                    </div>
+                    <div class="col m-5">
+                        <img src="img/img-home-sobre.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-only">
+            <div class="background-home2"> <br> <br>
+                <div class="row">
+                    <div class="col text">
+                        <img class="img-mobile" src="img/img-home-sobre.png" alt="">
+                    </div>
+                    <div class="col m-5">
+                        <span class="title">
+                            Tempo e conhecimento
+                        </span> <br> <br>
+                        <p class="text">Desde 2018 nossa missão tem sido revolucionar a forma como as pessoas
+                            experimentam a comida em São Paulo. De pratos clássicos a inovadores, trazendo
+                            sempre o
+                            melhor.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text">
+                        <img class="img-mobile" src="img/img-home-sobre.png" alt="">
+                    </div>
+                    <div class="col m-5">
+                        <span class="title">
+                            O melhor atendimento
+                        </span> <br> <br>
+                        <p class="text">O restaurante busca proporcionar uma aventura culinária arrojada e
+                            simplista. Venha conhecer hoje mesmo e saboreie tudo isso!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="background-home2">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.300058203029!2d-46.6357535!3d-23.557664499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a8a313893b%3A0xc87780ce79a8a881!2sR.%20Thomaz%20Gonzaga%2C%2065%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001506-020!5e0!3m2!1spt-BR!2sbr!4v1710369679526!5m2!1spt-BR!2sbr"
+                width="80%" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe> <br>
+
+            <div class="desktop-only">
+                <div class="social">
+                    <a href="https://www.instagram.com/komeirestaurante/" class="social-text" target="_blank"><img src="img/instaG2.png"
+                            alt="" id="contato">@komeirestaurante</a>
+                    <a href="" class="social-text"><img src="img/whatsappG2.png" alt="">(11) 2688-3783</a>
+                </div>
+            </div>
+
+            <div class="mobile-only">
+                <div class="social m-5">
+                    <a href="https://www.instagram.com/komeirestaurante/" class="social-text" target="_blank"><img src="img/instaG2.png"
+                            alt="">@komeirestaurante</a>
+                    <br> <br>
+                    <a href="" class="social-text"><img src="img/whatsappG2.png" alt="">(11) 2688-3783</a>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div> <!-- container principal -->
+
+    <div class="desktop-only">
+        <footer class="footer">&copy; Copyright 2024 | Desenvolvido por Eduardo Casagrande</footer>
+    </div>
+    
+    <div class="mobile-only">
+        <footer class="footer">&copy; Copyright 2024 | Desenvolvido por Eduardo Casagrande</footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

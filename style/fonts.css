@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.text{
+    display: flex;
+    font-family: ubuntu, sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0px 0px 10px #000;
+    text-align: start!important;
+    text-decoration: none;
+}
+
+.title{
+    font-family: ubuntu, sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.title2{
+    font-family: ubuntu, sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.social-text{
+    font-family: ubuntu, sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .text{
+        font-family: ubuntu, sans-serif;
+        font-size: 1.2rem;
+        color: #fff;
+        text-shadow: 0px 0px 8px #000;
+        text-align: center;
+    }
+
+    .title{
+        font-family: ubuntu, sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+    }
+}

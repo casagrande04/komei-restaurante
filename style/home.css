@@ -1,0 +1,57 @@
+.background-home {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9710259103641457) 11%, rgba(38, 7, 7, 0.9290091036414566) 34%, rgba(120, 22, 22, 0.6909138655462185) 64%, rgba(244, 44, 44, 0.16150210084033612) 100%), url(../img/banner-principal-komei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    padding-bottom: 70px;
+}
+
+
+
+.komei-home {
+    margin: 60px auto;
+    height: 150px;
+}
+
+.background-home2 {
+    background-image: url(../img/background-texture.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-menu {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    vertical-align: middle;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 5px;
+    background-color: rgb(54, 3, 3);
+    border: none;
+    font-family: ubuntu, sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0px 0px 10px #000;
+    transition: 500ms;
+}
+
+.btn-menu:hover {
+    transform: translate(3px, -2px);
+    background-color: rgb(82, 5, 5);
+    box-shadow: 0px 0px 5px #ffffff48;
+}
+
+button>a{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+.map{
+    display: flex;
+    margin: 0 auto;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}

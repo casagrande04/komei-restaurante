@@ -1,0 +1,36 @@
+.logo{
+    width: 200px;
+}
+
+.navbar{
+    background-color: #000;
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+.nav-link{
+    color: #fff!important;
+    margin: 10px 35px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav-link:hover{
+    color: red!important;
+}
+
+
+.navbar-toggler{
+    margin-right: 20px ;
+}
+
+.custom-toggler.navbar-toggler{
+    border: 2px solid #fff;
+    background-color: rgb(255,0,0);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
